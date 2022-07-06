@@ -50,9 +50,7 @@ class _DiscountsState extends State<Discounts> {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            buildCircle(0),
-            buildCircle(1),
-            buildCircle(2),
+            for (int i = 0; i< imgList.length; i++) buildCircle(i),
           ],
         ),
       ],

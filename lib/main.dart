@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_commerce/view/category_page.dart';
 import 'package:mobile_commerce/view/home_page.dart';
+import 'package:mobile_commerce/view/product_details_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'Merriweather'
       ),
-      home: HomePage()
+      // home: HomePage()
+      home: CategoryPage()
     );
   }
 }

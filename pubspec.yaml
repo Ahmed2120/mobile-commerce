@@ -78,6 +78,8 @@ flutter:
     - family: Merriweather
       fonts:
       - asset: assets/fonts/Merriweather-Black.ttf
+        weight: 400
+      - asset: assets/fonts/Merriweather-Bold.ttf
         weight: 700
   #
   # For details regarding fonts from package dependencies,
